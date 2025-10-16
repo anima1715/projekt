@@ -1,0 +1,84 @@
+/* Umumiy fon */
+.bg {
+  background-color: #f9fafb;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.yon-menyu {
+  width: 220px;
+  background: linear-gradient(to bottom, #6b21a8, #4338ca);
+  color: white;
+  padding: 20px;
+}
+
+.sarlavha {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menyu {
+  list-style: none;
+  padding: 0;
+}
+
+.menyu li {
+  margin: 10px 0;
+}
+
+.menyu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+  border-radius: 8px;
+}
+
+.menyu a:hover,
+.aktiv {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Asosiy qism */
+.asosiy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Yuqori menyu */
+.yuqori-menyu {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.yuqori-menyu a {
+  margin-left: 20px;
+  color: #6b21a8;
+  text-decoration: none;
+}
+
+.yuqori-menyu a:hover {
+  text-decoration: underline;
+}
+
+/* Kontent qismi */
+.kontent {
+  padding: 30px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}

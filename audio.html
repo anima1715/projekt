@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <div class="flex h-screen">
+  
+    <aside class="w-60 bg-gradient-to-b from-purple-600 to-indigo-700 text-white p-4 space-y-6">
+      <div class="flex items-center gap-2">
+        <div class="w-10 h-10 rounded-md bg-white text-purple-600 flex items-center justify-center font-bold"> 📜</div>
+        <h1 class="text-lg font-semibold">Ijod Dunyosi</h1>
+      </div>
+      <nav class="space-y-3 text-sm">
+        <a href="http://127.0.0.1:5500/fayl1.html" class="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-purple-800"> She'rlar</a>
+        <a href="http://127.0.0.1:5500/hikoya.html" class="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-purple-800"> Hikoyalar</a>
+        <a href="http://127.0.0.1:5500/fikr.html" class="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-purple-800"> Fikr-mulohazalar</a>
+        <a href="http://127.0.0.1:5500/yozish.html" class="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-purple-800"> Yozish</a>
+      </nav>
+    </aside>
+
+    <div class="flex-1 flex flex-col">
+      <header class="bg-white shadow px-6 py-3 flex items-center justify-end">
+        <div class="flex gap-6 text-sm font-medium">
+          <a href="http://127.0.0.1:5500/fayl1.html" class="hover:text-purple-600">She'rlar</a>
+          <a href="http://127.0.0.1:5500/hikoya.html" class="hover:text-purple-600">Hikoyalar</a>  
+          <a href="http://127.0.0.1:5500/fikr.html" class="hover:text-purple-600">Fikr-mulohazalar</a>
+          <a href="http://127.0.0.1:5500/yozish.html" class="hover:text-purple-600">Yozish</a>
+        </div>
+      </header>
+      <main class="p-8 space-y-6">
+        <div class="bg-white rounded-xl shadow p-6">
+
+          <h2 class="text-xl font-semibold">Tavsiya etilgan audio</h2>
+          <ul class="mt-4 space-y-4 text-gray-700">
+            <li>
+              <p class="font-medium">Muhammad Yusuf - Lolaqizg'aldoq</p>
+              <audio controls class="mt-2 w-full">
+                <source src="Lolaqizgaldoq.mp3" type="audio/mpeg">
+                Brauzeringiz audio elementni qo‘llab-quvvatlamaydi.
+              </audio>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

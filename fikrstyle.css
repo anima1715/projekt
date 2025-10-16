@@ -1,0 +1,207 @@
+/* Umumiy fon */
+.bg {
+  background-color: #f9fafb;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.yon-menyu {
+  width: 220px;
+  background: linear-gradient(to bottom, #6b21a8, #4338ca);
+  color: white;
+  padding: 20px;
+}
+
+.sarlavha {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menyu {
+  list-style: none;
+  padding: 0;
+}
+
+.menyu li {
+  margin: 10px 0;
+}
+
+.menyu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+  border-radius: 8px;
+}
+
+.menyu a:hover,
+.aktiv {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Asosiy qism */
+.asosiy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Yuqori menyu */
+.yuqori-menyu {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.yuqori-menyu a {
+  margin-left: 20px;
+  color: #6b21a8;
+  text-decoration: none;
+}
+
+.yuqori-menyu a:hover {
+  text-decoration: underline;
+}
+
+/* Kontent qismi */
+.kontent {
+  padding: 30px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+/* Menyu havolalari */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background: #5b21b6;
+}
+
+.menu a.active {
+  background: #4c1d95;
+}
+
+/* O‘ng qism */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header qismi */
+.header {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 12px 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #7e22ce;
+}
+
+.nav-links .active-link {
+  color: #7e22ce;
+}
+
+/* Kontent (asosiy qism) */
+.content {
+  padding: 32px;
+}
+
+/* Forma qutisi */
+.form-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 600px;
+}
+
+.form-card h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Forma elementlari */
+.form {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: block;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #7e22ce;
+  box-shadow: 0 0 0 2px rgba(126, 34, 206, 0.3);
+}
+
+/* Tugma */
+button {
+  background: #7e22ce;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #6b21a8;
+}

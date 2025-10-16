@@ -1,0 +1,153 @@
+/* Umumiy fon */
+.bg {
+  background-color: #f9fafb;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.yon-menyu {
+  width: 220px;
+  background: linear-gradient(to bottom, #6b21a8, #4338ca);
+  color: white;
+  padding: 20px;
+}
+
+.sarlavha {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menyu {
+  list-style: none;
+  padding: 0;
+}
+
+.menyu li {
+  margin: 10px 0;
+}
+
+.menyu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+  border-radius: 8px;
+}
+
+.menyu a:hover,
+.aktiv {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Asosiy qism */
+.asosiy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Yuqori menyu */
+.yuqori-menyu {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.yuqori-menyu a {
+  margin-left: 20px;
+  color: #6b21a8;
+  text-decoration: none;
+}
+
+.yuqori-menyu a:hover {
+  text-decoration: underline;
+}
+.sinf {
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.box h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.form-grup {
+  margin-bottom: 18px;
+}
+
+label {
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  resize: none;
+}
+
+textarea {
+  height: 120px;
+}
+
+.radio {
+  display: flex;
+  gap: 20px;
+   margin-top: 6px;
+}
+
+.radio label {
+   background-color: #c285f5;
+   border-radius: 10 px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+.radio:checked{
+  display: block;
+}
+.label{
+  display: none;
+}
+
+
+button {
+  background-color: #6b21a8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #582a9e;
+}
